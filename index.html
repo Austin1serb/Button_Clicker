@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>button clicker</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="MainContainer">
+        <!-- nav bar -->
+        <div class="dojonarybox">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search.." class="SearchBar">
+            <button onclick="LogOut(this)" class="Login">Login</button>
+        </div>
+
+<!-- Dojo Box1 -->
+        <div class="ndConatiner">
+            <div class="ninjaboxes">
+                <div class="ninjaBox">
+                    <div class="">
+                        <h2>ninja</h2>
+                        <p class="noun1"><em>noun</em>  <br>Plural: <em>ninjas</em> </p>
+                        <button onclick="alert('Ninja was liked')" class="button1">13 likes</button>
+                    </div>
+                    <div class="ninjaBoxDefinition">
+                        <p class="definition1">A practitioner skilled in the <br><a href=""> Japanese</a> art of <a href=""> ninjutsu</a></p>
+
+                    </div>
+                </div>
+
+                <!-- dojobox2 -->
+
+                <div class="ninjabox2">
+                    <div class="">
+                        <h2>ninja</h2>
+                        <p class="noun1"><em>noun</em>  <br>Plural: <em>ninjas</em> </p>
+                        <button class="button1">37 likes</button>
+                    </div>
+                    <div class="ninjaBoxDefinition">
+                        <p class="definition1">A <a href="">programmer</a>  who breaks <br> down problems with <a href="">Zen</a> -like <br> focus</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- dojoDefineBox -->
+
+            <div class="dojoDefineBox">
+                <p class="define-box">Dojonary is <br>defined by <strong>YOU</strong> </p>
+                <button onclick="hide(this)" class="define-button">Add Definition</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
